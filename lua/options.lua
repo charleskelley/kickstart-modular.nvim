@@ -36,6 +36,9 @@ vim.opt.smartcase = true
 -- Keep signcolumn on by default
 vim.opt.signcolumn = 'yes'
 
+-- Highlight the 80th and 100th columns
+vim.opt.colorcolumn = '80,100'
+
 -- Decrease update time
 vim.opt.updatetime = 250
 
